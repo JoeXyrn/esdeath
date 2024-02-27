@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ExpressFeelings - Ungkapkan Perasaanmu</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Selamat Datang di Website Saya!</h1>
-    <p>Ini adalah contoh situs web yang di-host di GitHub Pages.</p>
+
+  <header>
+    <div class="container">
+      <h1>ExpressFeelings</h1>
+      <p>Berani Ungkapkan Perasaanmu</p>
+    </div>
+  </header>
+
+  <section class="main-content">
+    <div class="container">
+      <div class="form-container">
+        <h2>Ungkapkan Perasaanmu</h2>
+        <textarea id="feelingsInput" placeholder="Tulis perasaanmu di sini..."></textarea>
+        <button onclick="expressFeelings()">Kirim</button>
+      </div>
+      <div class="result-container">
+        <h2>Perasaan yang Telah Diungkapkan</h2>
+        <ul id="feelingsList"></ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 ExpressFeelings - Dibuat dengan Kasih Sayang</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
+
